@@ -12,7 +12,7 @@ Build a set of pieces able to act as a Cloud Training Lab. Key points:
 ## Draft
 
 - Cloud providers
-  - Proxmox (dev local workstation)
+  - Proxmox (dev local workstation), with Kairops [Vagrant Virtualbox Proxmox Cluster project](https://github.com/kairops/vagrant-virtualbox-proxmox-cluster)
   - Kubernetes
   - OpenShift
   - Amazon Web Services
