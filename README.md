@@ -10,19 +10,64 @@ Build a set of pieces able to act as a Cloud Training Lab. Key points:
 - DevOps / GitOps (2) mindset
 - Multiple cloud targets
 
+## Requirements
+
+- [Teecke devcontrol](https://github.com/teecke/devcontrol) installed
+
+If you want to use `proxmox` as the base cloud provider:
+
+- [Virtualbox](https://www.virtualbox.org) installed
+- [Vagrant](https://www.vagrantup.com) installed
+
+## Usage
+
+### Start the base cloud platform
+
+1. Clone this repository
+2. Prepare the `config.yml` file from `config.yml.dist` template
+
+```shell
+cp config.yml.dist config.yml
+```
+
+3. Edit the `config.yml` and set your preferred provider (default: proxmox)
+4. Start the platform
+
+```shell
+devcontrol start
+```
+
+### Prepare the platform tools
+
+- Opnsense
+- Zerotier
+
+(TBD)
+
+### Prepare / Start the services in the platform
+
+- Prepare Android builder
+- Prepare iOS Builder
+- Start Passbolt
+- Start Jenkins
+  Start Sonar
+- Start Nexus
+
+(TBD)
+
 ## Draft
 
-- Cloud providers
+- [Cloud providers](base/base.md)
   - Proxmox (for dev local workstation) (3)
   - Kubernetes
   - OpenShift
   - Amazon Web Services
   - Google Cloud Platform
   - Microsoft Azure
-- Platform tools
+- [Platform tools](tools/tools.md)
   - Opnsense
   - Zerotier
-- Services
+- [Services](services/services.md)
   - Passbolt
   - Jenkins
     - Android builder

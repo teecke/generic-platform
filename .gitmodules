@@ -1,0 +1,4 @@
+[submodule "base/proxmox/vagrant-virtualbox-proxmox-cluster"]
+	path = base/proxmox/vagrant-virtualbox-proxmox-cluster
+	url = https://github.com/kairops/vagrant-virtualbox-proxmox-cluster.git
+	branch = master
