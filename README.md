@@ -12,12 +12,12 @@ Build a set of pieces able to act as a Cloud Training Lab. Key points:
 
 ## Requirements
 
-- [Teecke devcontrol](https://github.com/teecke/devcontrol) installed
+- [Teecke devcontrol](https://github.com/teecke/devcontrol) installed (3)
 
 If you want to use `proxmox` as the base cloud provider:
 
-- [Virtualbox](https://www.virtualbox.org) installed
-- [Vagrant](https://www.vagrantup.com) installed
+- [Virtualbox](https://www.virtualbox.org) installed (4)
+- [Vagrant](https://www.vagrantup.com) installed (5)
 
 ## Usage
 
@@ -58,7 +58,7 @@ devcontrol start
 ## Draft
 
 - [Cloud providers](base/base.md)
-  - Proxmox (for dev local workstation) (3)
+  - Proxmox (for dev local workstation) (6)
   - Kubernetes
   - OpenShift
   - Amazon Web Services
@@ -77,7 +77,11 @@ devcontrol start
 
 ## References and related projects
 
-- Fulfill the [The DevOps Hispano Challenge](https://github.com/devops-hispano/reto-devops]) project (1)
+- Fulfill the [The DevOps Hispano Challenge](https://github.com/devops-hispano/reto-devops]) github project (1)
 - Build with [GitOps](https://www.weave.works/technologies/gitops/) Mindset (2)
-- Proxmox Vagrant Provision with Kairops [Vagrant Virtualbox Proxmox Cluster](https://github.com/kairops/vagrant-virtualbox-proxmox-cluster) project (3)
+- Bash Scripts managed used [devcontrol)](https://github.com/teecke/devcontrol) github project (3)
+- Proxmox Vagrant Provision with Kairops [Vagrant Virtualbox Proxmox Cluster](https://github.com/kairops/vagrant-virtualbox-proxmox-cluster) project (6)
 - Bash auto documentation with Reconquest [shdoc](https://github.com/reconquest/shdoc) project
+- Proxmox Base Cloud Provider mounted using:
+  - Oracle [Virtualbox](https://www.virtualbox.org) (4)
+  - Hashicorp [Vagrant](https://www.vagrantup.com) (5)
