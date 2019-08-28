@@ -4,16 +4,16 @@
 # @brief Base start
 # Uses https://github.com/kairops/vagrant-virtualbox-proxmox-cluster project
 
+set -euo pipefail
+
 # init
 source config.ini
 
 function startBaseCloud() {
     case $1 in
         proxmox)
-            git submodule update --init base/proxmox/vagrant-virtualbox-proxmox-cluster/
-            pushd base/proxmox/vagrant-virtualbox-proxmox-cluster/
-            #devcontrol box-build
-            devcontrol cluster-build
+            base/proxmox/build.sh
+            base/proxmox/start.sh
             ;;
         *)
             echo "Unknown basre provider: '${1}'. Aborting"
