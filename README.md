@@ -16,7 +16,7 @@ Build a set of pieces able to act as a Cloud Training Lab. Key points:
 
 ## Requirements
 
-- [Teecke devcontrol](https://github.com/teecke/devcontrol) installed (3)
+- [Teecke devcontrol](https://github.com/ayudadigital/devcontrol) installed (3)
 
 If you want to use `proxmox` as the base cloud provider:
 
@@ -83,7 +83,7 @@ devcontrol start
 
 - Fulfill the [The DevOps Hispano Challenge](https://github.com/devops-hispano/reto-devops]) github project (1)
 - Build with [GitOps](https://www.weave.works/technologies/gitops/) Mindset (2)
-- Bash Scripts managed used [devcontrol)](https://github.com/teecke/devcontrol) github project (3)
+- Bash Scripts managed used [devcontrol)](https://github.com/ayudadigital/devcontrol) github project (3)
 - Proxmox Vagrant Provision with Kairops [Vagrant Virtualbox Proxmox Cluster](https://github.com/kairops/vagrant-virtualbox-proxmox-cluster) project (6)
 - Bash auto documentation with Reconquest [shdoc](https://github.com/reconquest/shdoc) project
 - Proxmox Base Cloud Provider mounted using:
