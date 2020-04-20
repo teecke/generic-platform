@@ -1,6 +1,6 @@
 # DEPRECATED
 
-Please visit https://github.com/tpbtools/generic-platform
+Please visit https://github.com/ayudadigital/generic-platform
 
 # Generic Platform
 
